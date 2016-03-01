@@ -17,8 +17,8 @@ gem "uglifier", ">= 2.0", "< 3.0"
 gem "jbuilder", ">= 2.0", "< 3.0"
 gem 'bcrypt', ">= 3.0", "< 4.0"
 
-# gem "span", "0.0.0.alpha.01", git: "https://github.com/limnovecode/span.git"
-gem "span", path: "/Users/tonydefaria/IIGETHR/Box Sync/Internal Projects/Kitchen/Gems/span"
+gem "span", "0.0.0.alpha.44", git: "https://github.com/iigethr/span.git"
+# gem "span", path: "/Users/tonydefaria/IIGETHR/Box Sync/Internal Projects/Kitchen/Gems/span"
 
 group :production do
   gem "pg", ">= 0.0", "< 1.0"
