@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/tonydefaria/IIGETHR/Box Sync/Internal Projects/Kitchen/Gems/span
+GIT
+  remote: https://github.com/iigethr/span.git
+  revision: 3dc5446780eded03445af01e2b94fadff032f02d
   specs:
     span (0.0.0.alpha.44)
       browser (>= 1.0, < 2.0)
@@ -359,7 +360,7 @@ DEPENDENCIES
   rails (= 4.2.5.1)
   rails_12factor (>= 0.0, < 1.0)
   sass-rails (>= 5.0, < 6.0)
-  span!
+  span (= 0.0.0.alpha.44)!
   spring (>= 1.0, < 2.0)
   sqlite3 (>= 1.0, < 2.0)
   therubyracer (>= 0.1, < 1.0)
