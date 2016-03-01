@@ -1,0 +1,28 @@
+# Ignore these files when committing to a git repository.
+
+# Clean artifacts
+.DS_Store
+/db/*.sqlite3
+/db/*.sqlite3-journal
+.bundle/
+/log
+/log/*
+/tmp
+/tmp/*
+/pkg
+/pkg/*
+/gems
+/cache
+/public/cache
+/public/stylesheets/compiled
+/public/system/*
+/public/uploads/
+/public/uploads/*
+/spec/tmp/*
+/specifications
+
+# IMPORTANT: Environment files that may contain sensitive data
+config/figaro
+config/figaro/*
+config/figaro/**/*
+config/application.yml
